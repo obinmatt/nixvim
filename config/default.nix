@@ -2,31 +2,40 @@
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
-    ./nvim-cmp.nix
-    ./lsp.nix
+		./completion.nix
+		./harpoon.nix
+		./keymaps.nix
+		./lsp.nix
+		./telescope.nix
+		./treesitter.nix
   ];
 
   config = {
-    # Plugins without extensive config
-    plugins.telescope.enable = true;
-    plugins.treesitter.enable = true;
-    plugins.luasnip.enable = true;
-    plugins.todo-comments.enable = true;
- 
-    colorschemes.gruvbox.enable = true;
-    globals.mapleader = " ";
-    
-    options = {
+		globals.mapleader = " ";
+		options = {
       number = true;
       relativenumber = true;
-      shiftwidth = 2;
+
+      tabstop = 4;
+      softtabstop = 4;
+      shiftwidth = 4;
+      expandtab = true;
+
+			smartindent = true;
+			wrap = false;
+
+			hlsearch = false;
+			incsearch = true;
+
+			termguicolors = true;
+
+			scrolloff = 8;
+			updatetime = 50;
     };
-    
-    keymaps = [
-      {
-        action = "<cmd>Telescope live_grep<CR>";
-        key = "<leader>g";
-      }
-    ];
-  };
+
+    colorschemes.gruvbox.enable = true;
+
+		plugins.undotree.enable = true;
+    plugins.fugitive.enable = true;
+	};
 }
