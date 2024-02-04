@@ -35,7 +35,11 @@
             updatetime = 50;
         };
 
-        colorschemes.gruvbox.enable = true;
+        colorschemes.rose-pine = {
+            enable = true;
+            dimInactive = true;
+            transparentBackground = true;
+        };
 
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
