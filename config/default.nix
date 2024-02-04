@@ -1,6 +1,7 @@
 {
 # Import all your configuration modules here
     imports = [
+        ./bufferline.nix
         ./completion.nix
         ./harpoon.nix
         ./keymaps.nix
@@ -35,7 +36,6 @@
 
         colorschemes.gruvbox.enable = true;
 
-        plugins.bufferline.enable = true;
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
     };

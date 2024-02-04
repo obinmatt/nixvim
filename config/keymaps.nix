@@ -10,21 +10,39 @@
         };
     }
     {
-        key = "<leader>gs";
-        mode = [ "n" ];
-        action = ":Git<CR>";
-        options = {
-            silent = true;
-            desc = "Toggle git fugitive";
-        };
-    }
-    {
         key = "<leader>ft";
         mode = [ "n" ];
         action = ":NvimTreeToggle<CR>";
         options = {
             silent = true;
             desc = "Toggle nvim-tree";
+        };
+    }
+    {
+        key = "<leader>bp";
+        mode = [ "n" ];
+        action = ":BufferLinePick<CR>";
+        options = {
+            silent = true;
+            desc = "Pick buffer to open";
+        };
+    }
+    {
+        key = "<leader>bc";
+        mode = [ "n" ];
+        action = ":BufferLinePickClose<CR>";
+        options = {
+            silent = true;
+            desc = "Pick buffer to close";
+        };
+    }
+    {
+        key = "<leader>gs";
+        mode = [ "n" ];
+        action = ":Git<CR>";
+        options = {
+            silent = true;
+            desc = "Toggle git fugitive";
         };
     }
     {
