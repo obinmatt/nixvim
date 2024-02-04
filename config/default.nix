@@ -14,6 +14,7 @@
 
     config = {
         globals.mapleader = " ";
+        
         options = {
             number = true;
             relativenumber = true;
@@ -37,7 +38,6 @@
 
         colorschemes.rose-pine = {
             enable = true;
-            dimInactive = true;
             transparentBackground = true;
         };
 
