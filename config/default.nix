@@ -6,6 +6,7 @@
         ./gitsigns.nix
         ./keymaps.nix
         ./lsp.nix
+        ./none-ls.nix
         ./nvim-tree.nix
         ./telescope.nix
         ./treesitter.nix
