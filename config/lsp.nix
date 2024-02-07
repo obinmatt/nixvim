@@ -10,6 +10,7 @@
                 "gd" = "definition";
                 "gi" = "implementation";
                 "gt" = "type_definition";
+                "ga" = "code_action";
             };
             diagnostic = {
                 "[d" = "goto_next";
