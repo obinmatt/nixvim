@@ -4,7 +4,6 @@
         ./bufferline.nix
         ./completion.nix
         ./gitsigns.nix
-        ./harpoon.nix
         ./keymaps.nix
         ./lsp.nix
         ./nvim-tree.nix
