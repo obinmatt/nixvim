@@ -43,5 +43,6 @@
 
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
+        plugins.trouble.enable = true;
     };
 }
