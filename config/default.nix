@@ -3,7 +3,6 @@
     imports = [
         ./bufferline.nix
         ./completion.nix
-        ./gitsigns.nix
         ./keymaps.nix
         ./lsp.nix
         ./none-ls.nix
@@ -44,5 +43,9 @@
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
         plugins.trouble.enable = true;
+        plugins.gitsigns = {
+            enable = true;
+            currentLineBlame = true;
+        }; 
     };
 }
