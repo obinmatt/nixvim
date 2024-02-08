@@ -5,7 +5,8 @@
         autoClose = true;
         hijackCursor = true;
         disableNetrw = true;
-        openOnSetupFile = true;
+        diagnostics.enable = true;
+        updateFocusedFile.enable = true;
         openOnSetup = true;
     };
 }
