@@ -46,6 +46,10 @@
         plugins.gitsigns = {
             enable = true;
             currentLineBlame = true;
-        }; 
+        };
+        plugins.lualine = {
+            enable = true;
+            globalstatus = true;
+        };
     };
 }
