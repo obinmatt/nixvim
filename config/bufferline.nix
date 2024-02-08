@@ -3,7 +3,7 @@
         enable = true;
 
         diagnostics = "nvim_lsp";
-        numbers = "buffer_id";
+        separatorStyle = "slant";
         offsets = [
             {
                 filetype = "NvimTree";
