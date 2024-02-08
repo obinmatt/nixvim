@@ -10,6 +10,24 @@
         };
     }
     {
+        key = "<leader>t";
+        mode = [ "n" ];
+        action = ":Trouble document_diagnostics<CR>";
+        options = {
+            silent = true;
+            desc = "Toggle trouble in document_diagnostics mode";
+        };
+    }
+    {
+        key = "<leader>tc";
+        mode = [ "n" ];
+        action = ":TroubleClose<CR>";
+        options = {
+            silent = true;
+            desc = "Close trouble";
+        };
+    }
+    {
         key = "<leader>ft";
         mode = [ "n" ];
         action = ":NvimTreeToggle<CR>";
