@@ -19,6 +19,24 @@
         };
     }
     {
+        key = "<leader>fte";
+        mode = [ "n" ];
+        action = ":NvimTreeResize +25<CR>";
+        options = {
+            silent = true;
+            desc = "Increase width of nvim-tree";
+        };
+    }
+    {
+        key = "<leader>ftc";
+        mode = [ "n" ];
+        action = ":NvimTreeResize -25<CR>";
+        options = {
+            silent = true;
+            desc = "Decrease width of nvim-tree";
+        };
+    }
+    {
         key = "<leader>bp";
         mode = [ "n" ];
         action = ":BufferLinePick<CR>";
