@@ -2,6 +2,7 @@
 # Import all your configuration modules here
     imports = [
         ./completion.nix
+        ./harpoon.nix
         ./keymaps.nix
         ./lsp.nix
         ./none-ls.nix
@@ -56,3 +57,4 @@
         };
     };
 }
+
