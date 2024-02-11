@@ -1,12 +1,10 @@
 {
 # Import all your configuration modules here
     imports = [
-        ./bufferline.nix
         ./completion.nix
         ./keymaps.nix
         ./lsp.nix
         ./none-ls.nix
-        ./nvim-tree.nix
         ./telescope.nix
         ./treesitter.nix
     ];
