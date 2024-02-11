@@ -40,6 +40,9 @@
             transparentBackground = true;
         };
 
+        viAlias = true;
+        vimAlias = true;
+
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
         plugins.todo-comments.enable = true;
