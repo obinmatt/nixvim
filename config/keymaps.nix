@@ -10,69 +10,6 @@
         };
     }
     {
-        key = "<leader>t";
-        mode = [ "n" ];
-        action = ":Trouble document_diagnostics<CR>";
-        options = {
-            silent = true;
-            desc = "Toggle trouble in document_diagnostics mode";
-        };
-    }
-    {
-        key = "<leader>tc";
-        mode = [ "n" ];
-        action = ":TroubleClose<CR>";
-        options = {
-            silent = true;
-            desc = "Close trouble";
-        };
-    }
-    {
-        key = "<leader>ft";
-        mode = [ "n" ];
-        action = ":NvimTreeToggle<CR>";
-        options = {
-            silent = true;
-            desc = "Toggle nvim-tree";
-        };
-    }
-    {
-        key = "<leader>fte";
-        mode = [ "n" ];
-        action = ":NvimTreeResize +25<CR>";
-        options = {
-            silent = true;
-            desc = "Increase width of nvim-tree";
-        };
-    }
-    {
-        key = "<leader>ftc";
-        mode = [ "n" ];
-        action = ":NvimTreeResize -25<CR>";
-        options = {
-            silent = true;
-            desc = "Decrease width of nvim-tree";
-        };
-    }
-    {
-        key = "<leader>bp";
-        mode = [ "n" ];
-        action = ":BufferLinePick<CR>";
-        options = {
-            silent = true;
-            desc = "Pick buffer to open";
-        };
-    }
-    {
-        key = "<leader>bc";
-        mode = [ "n" ];
-        action = ":BufferLinePickClose<CR>";
-        options = {
-            silent = true;
-            desc = "Pick buffer to close";
-        };
-    }
-    {
         key = "<leader>gs";
         mode = [ "n" ];
         action = ":Git<CR>";
