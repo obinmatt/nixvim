@@ -41,6 +41,7 @@
 
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
+        plugins.todo-comments.enable = true;
         plugins.gitsigns = {
             enable = true;
             currentLineBlame = true;
