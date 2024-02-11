@@ -28,6 +28,7 @@
             incsearch = true;
 
             termguicolors = true;
+            clipboard = "unnamedplus";
 
             scrolloff = 8;
             updatetime = 50;
@@ -40,7 +41,6 @@
 
         plugins.undotree.enable = true;
         plugins.fugitive.enable = true;
-        plugins.trouble.enable = true;
         plugins.gitsigns = {
             enable = true;
             currentLineBlame = true;
@@ -48,6 +48,10 @@
         plugins.lualine = {
             enable = true;
             globalstatus = true;
+        };
+        plugins.comment-nvim = {
+            enable = true;
+            sticky = true;
         };
     };
 }
