@@ -15,6 +15,16 @@
                 action =  "live_grep";
                 desc = "Telescope Live Grep";
             };
+            "<C-b>" = {
+                action = "buffers";
+                desc = "Telescope buffers";
+            };
+        };
+
+        extensions.fzf-native = {
+            enable = true;
+            fuzzy = true;
+            caseMode = "smart_case";
         };
     };
 }
