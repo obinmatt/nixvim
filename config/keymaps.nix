@@ -15,7 +15,16 @@
         action = ":Git<CR>";
         options = {
             silent = true;
-            desc = "Toggle git fugitive";
+            desc = "Toggle vim fugitive";
+        };
+    }
+    {
+        key = "<leader>gc";
+        mode = [ "n" ];
+        action = ":Git commit<CR>";
+        options = {
+            silent = true;
+            desc = "Toggle vim fugitive commit";
         };
     }
     {
